@@ -1,9 +1,9 @@
-//console.log('this is loaded');
+//console.log('testt');
 
 exports.spotify = {
-  id: process.env.abacc9cd45d84df8b25b5d8e0759006e,
-  secret: process.env.db6b667abd2343aa995c37f75664ab39
-};
+  id: process.env.SPOTIFY_ID,
+  secret: process.env.SPOTIFY_SECRET
+}
 
 exports.omdb = { 
   key: process.env.OMDB_key
